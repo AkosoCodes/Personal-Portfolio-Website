@@ -1,79 +1,39 @@
 <template>
 
-    <div class="mx-auto my-20 w-2/3 flex-col text-white ">
-        <p id="greeting" class=" text-xl font-extrabold h-80px text-ali"></p>
-        <p class=" text-xl font-extrabold"><span class="text-accent">My name is </span>Andrija Stankovic!</p>
-        <p class=" text-base">I’m a software engineer student, dedicated to building (and occasionally designing)
-            exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products.</p>
-        <button class="w-150px h-50px bg-accent text-main my-5  hover:bg-main hover:text-accent"
-            v-on:click="writeType()">Learn More</button>
-        <button class="w-150px h-50px bg-accent text-main my-5  hover:bg-main hover:text-accent"
-            v-on:click="deleteType()">Learn More</button>
+	<div class="mx-auto my-[10vw] w-2/3 flex-col text-white ">
 
-    </div>
+		<TypeWriter></TypeWriter>
+
+		<p class="select-none text-xl font-extrabold text-main">
+			
+			My name is 
+			<a class="select-none text-main hover:text-accent" href="">Andrija Stankovic!</a>
+		</p>
+
+		<p class="text-base">
+			I’m a software engineer student, dedicated to learning how to build
+			exceptional digital experiences. Currently, I’m enjoying the process of discovering new technologies and
+			how to implement them in my projects.
+		</p>
+
+		<button
+			class="w-150px h-50px bg-accent text-main my-5 bg-opacity-70 hover:bg-main hover:bg-opacity-30 hover:text-accent">CLICK
+			ME
+		</button>
+
+	</div>
+
 </template>
 
 <script>
-export default {
-    name: "hero",
-    data() {
-        return {
-    
-        }
-    },
-    methods: {
 
-        writeType() {
-            if (i < greetings[greetNum].length) {
-                document.getElementById("greeting").innerHTML += greetings[greetNum].charAt(i);
-                i++;
-                setTimeout(writeType, speed);
-            }
-        },
+	import TypeWriter from "./typeWriter.vue";
 
-        deleteType() {
-            if(greetings[greetNum].length != 0)
-            document.getElementById("greeting").innerHTML = document.getElementById("greeting").innerHTML.substring(0, document.getElementById("greeting").innerHTML.length-1);
-            setTimeout(deleteType, speed);
-            increment();
-        },
-        typeWriter() {
-            setTimeout(writeType, 1000);
-            setTimeout(deleteType, 1000);
-        }
-    },
-}
+	export default {
+		name: "hero",
+		components: { TypeWriter }
+	}
 
-var i = 0;
-let greetNum= 0;
-var speed = 50;
-let greetings= ['hello', 'hola', 'bonjour', 'ciao', '안녕하십니까', 'pривет', 'zdravo', 'hallo', 'hei', 'xαίρετε', 'こんにちは'];
-
-function writeType() {
-    if (i < greetings[greetNum].length) {
-        document.getElementById("greeting").innerHTML += greetings[greetNum].charAt(i);
-        i++;
-        setTimeout(writeType, speed);
-    }
-
-}
-
-function deleteType() {
-    if (greetings[greetNum].length != 0) {
-        document.getElementById("greeting").innerHTML = document.getElementById("greeting").innerHTML.substring(0, document.getElementById("greeting").innerHTML.length - 1);
-        setTimeout(deleteType, speed);
-        increment();
-    }
-
-    greetNum++;
-
-}
-
-function increment(){
-    greetNum++;
-}
-
-
-
+	window.getSelection().toString();
 
 </script>

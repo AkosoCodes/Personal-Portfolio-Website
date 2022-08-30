@@ -8,10 +8,10 @@ module.exports = {
     extend: {
 
       colors:{
-        'main': '#EAE0D5',
+        'main': '#EDE5DC',
         'main-dark': '#18242A',
         'accent': '#C6AC8F',
-        'bg-main': '#22333B',
+        'bg-main': '#2C434D',
         'test': '#fe5454'
 
       },
@@ -43,11 +43,13 @@ module.exports = {
         '5px': '5px',
         '50px': '50px',
         '150px': '150px',
+        '200px': '200px',
       },
 
       height:{
         '5px': '5px',
         '50px': '50px',
+        '75px': '75px',
         '80px': '80px',
         '100px': '100px',
         '150px': '150px',
