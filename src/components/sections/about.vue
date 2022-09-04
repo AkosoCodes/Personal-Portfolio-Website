@@ -1,0 +1,51 @@
+<template>
+
+    <Heading heading="About Me" headingNum="01"></Heading>
+
+    <div class="flex flex-row justify-left  w-2/3 h-auto mx-auto">
+        <p class="w-3/6 my-10 text-small text-main">
+        
+        I'm Andrija, a third-year student striving to become a software engineer. My main passion is connecting the dots: be it ideas from different disciplines, individuals from different teams, or applications from various industries. <br><br>
+        
+        My interest in tech started way back since I could remember. As any other kid, I was inquisitive  with how things work. Whether it'd be electronics, or video games, my curiousity would guide me on a journy to find and understand the logic behind it.<br><br>
+
+        Fast-forward to today, and I’ve been enjoying the process of diversifying my skillsets in various fields. My main focus these days is on Web Development, as working with different technologies and languages to build one product is a puzzle which I enjoy to solve.
+        
+        </p>
+
+        <div class="bg-accent w-300px h-300px m-auto ">
+            <img class="w-300px h-300px opacity-40 border-[10px] border-accent hover:border-[5px] hover:opacity-100" src="../../assets/images/me.jpg">
+            
+        </div>
+        
+    </div>
+
+    <div class="flex flex-row w-2/4 m-auto bg-test ">
+
+        <ul class="flex flex-col w-1/4">
+            <li class=" my-1 text-left"><span class="text-accent">~ </span>Javascript (ES6)</li>
+            <li class=" my-1 text-left text-main"><span class="text-accent">~ </span>MongoDB</li>
+            <li class=" my-1 text-left text-main"><span class="text-accent">~ </span>Angular</li>
+        </ul>
+
+        <ul class="flex flex-col w-1/4">
+            <li class=" my-1 text-left text-main"><span class="text-accent">~ </span>Vue</li>
+            <li class=" my-1 text-left text-main"><span class="text-accent">~ </span>Java</li>
+            <li class=" my-1 text-left text-main">C++</li>
+        </ul>
+
+    </div>
+
+
+
+</template>
+
+<script>
+    import Heading from '../heading.vue';
+
+    export default {
+        name: "about",
+        components: { Heading }
+    }
+
+</script>

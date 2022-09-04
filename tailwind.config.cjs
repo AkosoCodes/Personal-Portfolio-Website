@@ -44,6 +44,7 @@ module.exports = {
         '50px': '50px',
         '150px': '150px',
         '200px': '200px',
+        '300px': '300px',
       },
 
       height:{
@@ -53,6 +54,7 @@ module.exports = {
         '80px': '80px',
         '100px': '100px',
         '150px': '150px',
+        '300px': '300px',
       }
 
     },

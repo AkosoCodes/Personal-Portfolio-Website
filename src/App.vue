@@ -1,8 +1,9 @@
 <script>
 import Navbar from './components/navbar.vue';
 import sideFooter from './components/side-footer.vue';
-import hero from './components/hero.vue';
-import About from './components/about.vue';
+import hero from './components/sections/hero.vue';
+import About from './components/sections/about.vue';
+import Projects from './components/sections/projects.vue';
 
 export default {
   name: 'App',
@@ -10,8 +11,9 @@ export default {
     Navbar,
     sideFooter,
     hero,
-    About
-  }
+    About,
+    Projects
+}
 }
 </script>
 
@@ -20,6 +22,7 @@ export default {
   <sideFooter></sideFooter>
   <hero></hero>
   <About></About>
+  <Projects></Projects>
 
   <p class="w-50px h-auto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora perferendis accusamus
     repudiandae laborum saepe corrupti perspiciatis magnam incidunt temporibus, quos illo suscipit? Temporibus atque ea

@@ -10,7 +10,8 @@
 			<a class="select-none text-main hover:text-accent" href="">Andrija Stankovic!</a>
 		</p>
 
-		<p class="text-base">
+		<!-- This is a comment-->
+		<p class="text-base ">
 			I’m a software engineer student, dedicated to learning how to build
 			exceptional digital experiences. Currently, I’m enjoying the process of discovering new technologies and
 			how to implement them in my projects.
@@ -27,7 +28,7 @@
 
 <script>
 
-	import TypeWriter from "./typeWriter.vue";
+	import TypeWriter from "../typeWriter.vue";
 
 	export default {
 		name: "hero",
