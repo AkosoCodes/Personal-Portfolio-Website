@@ -31,7 +31,7 @@
         <ul class="flex flex-col w-1/4">
             <li class=" my-1 text-left text-main"><span class="text-accent">~ </span>Vue</li>
             <li class=" my-1 text-left text-main"><span class="text-accent">~ </span>Java</li>
-            <li class=" my-1 text-left text-main">C++</li>
+            <li class=" my-1 text-left text-main"><span class="text-accent">~ </span>C++</li>
         </ul>
 
     </div>
