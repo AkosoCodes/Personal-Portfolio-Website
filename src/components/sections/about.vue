@@ -9,8 +9,9 @@
         
         My interest in tech started way back since I could remember. As any other kid, I was inquisitive  with how things work. Whether it'd be electronics, or video games, my curiousity would guide me on a journy to find and understand the logic behind it.<br><br>
 
-        Fast-forward to today, and I’ve been enjoying the process of diversifying my skillsets in various fields. My main focus these days is on Web Development, as working with different technologies and languages to build one product is a puzzle which I enjoy to solve.
-        
+        Fast-forward to today, and I’ve been enjoying the process of diversifying my skillsets in various fields. My main focus these days is on Web Development, as working with different technologies and languages to build one product is a puzzle which I enjoy to solve.<br><br>
+
+        Some of the most recent technologies I've been working with are:
         </p>
 
         <div class="bg-accent w-300px h-300px m-auto ">
@@ -18,22 +19,6 @@
             
         </div>
         
-    </div>
-
-    <div class="flex flex-row w-2/4 m-auto bg-test ">
-
-        <ul class="flex flex-col w-1/4">
-            <li class=" my-1 text-left"><span class="text-accent">~ </span>Javascript (ES6)</li>
-            <li class=" my-1 text-left text-main"><span class="text-accent">~ </span>MongoDB</li>
-            <li class=" my-1 text-left text-main"><span class="text-accent">~ </span>Angular</li>
-        </ul>
-
-        <ul class="flex flex-col w-1/4">
-            <li class=" my-1 text-left text-main"><span class="text-accent">~ </span>Vue</li>
-            <li class=" my-1 text-left text-main"><span class="text-accent">~ </span>Java</li>
-            <li class=" my-1 text-left text-main"><span class="text-accent">~ </span>C++</li>
-        </ul>
-
     </div>
 
 

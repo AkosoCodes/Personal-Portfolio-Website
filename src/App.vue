@@ -4,6 +4,7 @@ import sideFooter from './components/side-footer.vue';
 import hero from './components/sections/hero.vue';
 import About from './components/sections/about.vue';
 import Projects from './components/sections/projects.vue';
+import Contact from './components/sections/contact.vue';
 
 export default {
   name: 'App',
@@ -12,7 +13,8 @@ export default {
     sideFooter,
     hero,
     About,
-    Projects
+    Projects,
+    Contact
 }
 }
 </script>
@@ -23,6 +25,7 @@ export default {
   <hero></hero>
   <About></About>
   <Projects></Projects>
+  <Contact></Contact>
 
   <p class="w-50px h-auto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora perferendis accusamus
     repudiandae laborum saepe corrupti perspiciatis magnam incidunt temporibus, quos illo suscipit? Temporibus atque ea
