@@ -9,7 +9,7 @@
         :languages="['VS Code', 'JSON', 'Coolors']" 
         gitLink="https://github.com/AkosoCodes/north-star-theme" 
         exLink="https://marketplace.visualstudio.com/items?itemName=AkosoCodes.north-star-theme" 
-        imageURL="src/assets/images/theme.png"
+        imageURL="src/assets/images/theme1.png"
     ></Tile>
 
     <Tile 
