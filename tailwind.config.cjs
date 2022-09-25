@@ -22,11 +22,13 @@ module.exports = {
       },
 
       fontSize: {
+        
         'tiny': '.875rem',
         'small': '1.2rem',
-        'base': '25px',
-        'lg': '2.5rem',
-        'xl': '72px',
+        'base-sm': '16px',
+        'base': '20px',
+        'lg': '5vw',
+        'xl': '8vw',
         '2xl': '150px',
 
       },
@@ -61,6 +63,10 @@ module.exports = {
     screens: {
 
       'nav-sm': {'min': '0px', 'max': '768px'},
+      'nav-md': {'min': '769px', 'max': '1280px'},
+      'nav-xl': {'min': '1281px'},
+
+      'ssm': {'min': '0px', 'max': '500px'},
 
       'sm': '640px',
       // => @media (min-width: 640px) { ... }
