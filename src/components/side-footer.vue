@@ -1,8 +1,8 @@
 <template>
 
-    <div class="w-5px mx-72.5px bg-accent fixed bottom-0 left-0 z--20"></div>
+    <div class="nav-sm:hidden w-5px mx-72.5px bg-accent fixed bottom-0 left-0 z--20"></div>
  
-    <div class="fixed mx-45px bottom-0 left-0">
+    <div class="nav-sm:hidden fixed mx-45px bottom-0 left-0">
     
         <ul class="my-20px">
             <li class="w-50px  hover:scale-105">
@@ -33,6 +33,8 @@
         <div class="w-5px h-10 mx-auto bg-accent"></div>
 
     </div>
+
+    
 
 
 </template>

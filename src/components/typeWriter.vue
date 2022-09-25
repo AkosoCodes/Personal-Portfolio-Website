@@ -1,6 +1,13 @@
 <template>
-    <p id="text" class="text-xl font-extrabold h-80px text-accent select-none"></p>
 
+<div class="h-[10vw] ">
+	<p id="text" class="text-xl font-extrabold  text-accent select-none"></p>
+
+</div>
+
+
+<p class="text-[4vw]">My name is</p>
+	
 </template>
 
 <script>
@@ -30,7 +37,7 @@ function typeWriter() {
 
 	// If the entire word is displayed, call delTypeWriter function.
 	if(text === greetingArray[part]) {
-		document.querySelector("#text").innerHTML = text + ',';
+		document.querySelector("#text").innerHTML = text + '!';
 		clearInterval(interval);
 		setTimeout(function() {
 			interval = setInterval(delTypeWriter, 50);

@@ -5,6 +5,7 @@ import hero from './components/sections/hero.vue';
 import About from './components/sections/about.vue';
 import Projects from './components/sections/projects.vue';
 import Contact from './components/sections/contact.vue';
+import Footer from './components/footer.vue';
 
 export default {
   name: 'App',
@@ -14,7 +15,8 @@ export default {
     hero,
     About,
     Projects,
-    Contact
+    Contact,
+    Footer
 }
 }
 </script>
@@ -26,15 +28,8 @@ export default {
   <About></About>
   <Projects></Projects>
   <Contact></Contact>
+  <Footer></Footer>
 
-  <p class="w-50px h-auto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora perferendis accusamus
-    repudiandae laborum saepe corrupti perspiciatis magnam incidunt temporibus, quos illo suscipit? Temporibus atque ea
-    animi ab est consequatur quibusdam. Voluptatibus, doloribus eaque! Hic iusto, alias autem laborum distinctio dolorem
-    qui cumque maxime mollitia. Reiciendis temporibus consequatur dolores reprehenderit. Perferendis sunt minima
-    dignissimos magni excepturi. Molestias, at incidunt odit architecto obcaecati mollitia ipsum iusto sapiente velit
-    nobis illum voluptatem labore similique quas magnam voluptatum. Quam dolor aliquid id. Ea sit unde laboriosam
-    adipisci reiciendis sed, ipsam sint sunt corrupti nihil aliquid repudiandae ipsum laudantium? Expedita molestias qui
-    maiores modi ipsa.</p>
 </template>
 
 <style>
