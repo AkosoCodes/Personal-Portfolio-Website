@@ -1,7 +1,7 @@
 <template>
 
     <!-- Small - Medium -->
-    <div class="md:hidden w-[70%] mx-auto my-[40px] bg-main-dark drop-shadow-2xl border-solid border-b-[5px] border-accent border-opacity-100">
+    <div class="ssm:w-[90%] md:hidden w-[80%] mx-auto my-[40px] bg-main-dark drop-shadow-2xl border-solid border-b-[5px] border-accent border-opacity-100">
         
         <!-- Image -->
         <div class="ssm:hidden">

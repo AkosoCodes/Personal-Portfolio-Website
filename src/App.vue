@@ -22,13 +22,20 @@ export default {
 </script>
 
 <template>
-  <Navbar></Navbar>
-  <sideFooter></sideFooter>
-  <hero></hero>
-  <!-- <About></About> -->
-  <Projects></Projects>
-  <!-- <Contact></Contact>
-  <Footer></Footer> -->
+
+  <div class="too-small-max:hidden">
+    <Navbar></Navbar>
+    <sideFooter></sideFooter>
+    <hero></hero>
+    <About></About>
+    <Projects></Projects>
+    <Contact></Contact>
+    <Footer></Footer>
+  </div>
+
+  <div class="too-small-min:hidden w-1/2 h-[250px] mx-auto my-[125%]">
+    <h1 class="text-main text-center text-[25px]">This website is <span class="text-accent">not optimized</span> for your device. :(</h1>
+  </div>
 
 </template>
 
