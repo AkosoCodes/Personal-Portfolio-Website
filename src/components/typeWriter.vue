@@ -1,12 +1,10 @@
 <template>
 
-<div class="h-[10vw] ">
-	<p id="text" class="text-xl font-extrabold  text-accent select-none"></p>
+<div class="ssm:h-[50px] h-[11vw] ">
+	<p id="text" class="ssm:text-[40px] text-xl  font-extrabold  text-accent select-none"></p>
 
 </div>
 
-
-<p class="text-[4vw]">My name is</p>
 	
 </template>
 

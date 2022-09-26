@@ -1,12 +1,12 @@
 <template>
 
-	<div class="mx-auto my-[10vw] w-2/3 flex flex-col text-main">
+	<div class="mx-auto my-[5vw] w-2/3 flex flex-col text-main">
 
 		<TypeWriter></TypeWriter>
 
 
-		<p class="flex flex-col select-none font-extrabold text-main text-lg leading-none h-[10vw]">
-			 <a class="select-none text-xl text-main hover:text-accent" href="">Andrija Stankovic.</a>
+		<p class="flex flex-col select-none font-extrabold text-main text-lg leading-none h-[10vw] ssm:h-[50px] mt-[5px]">
+			 <a class="ssm:text-[40px] select-none text-xl text-main hover:text-accent" href="">I'm Andrija.</a>
 		</p>
 
 		<p class="text-base ssm:text-base-sm">
