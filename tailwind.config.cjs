@@ -66,7 +66,7 @@ module.exports = {
       'nav-md': {'min': '769px', 'max': '1280px'},
       'nav-xl': {'min': '1281px'},
 
-      'ssm': {'min': '0px', 'max': '500px'},
+      'ssm': {'min': '320px', 'max': '500px'},
 
       'sm': '640px',
       // => @media (min-width: 640px) { ... }
