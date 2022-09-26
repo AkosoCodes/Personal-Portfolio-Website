@@ -13,32 +13,32 @@
     ></Tile>
 
     <Tile 
-    flip="true"
-    title="Travel Agency Web App" 
-    description="A fully functioning frontend side of the travel agency web application, built using the MEAN tech stack." 
-    :languages="['Angular', 'TypeScript', 'NodeJS', 'CSS']" 
-    gitLink="https://github.com/AkosoCodes/Travel-Agency-Frontend" 
-    exLink="" 
-    imageURL="src/assets/images/theme.png"
+        flip="true"
+        title="Travel Agency Web App" 
+        description="A fully functioning frontend side of the travel agency web application, built using the MEAN tech stack." 
+        :languages="['Angular', 'TypeScript', 'NodeJS', 'CSS']" 
+        gitLink="https://github.com/AkosoCodes/Travel-Agency-Frontend" 
+        exLink="" 
+        imageURL="src/assets/images/theme.png"
     ></Tile>
 
     <Tile 
-    title="Travel Agency API (Backend)" 
-    description="A fully functioning backend side of the travel agency web application. It was built in JavaScript, and uses a non-relational MongoDB database." 
-    :languages="['JavaScript (ES6)', 'NodeJS', 'ExpressJS', 'MongoDB', 'Mongoose']" 
-    gitLink="https://github.com/AkosoCodes/Travel-Agency-Frontend" 
-    exLink="" 
-    imageURL="src/assets/images/theme.png"
+        title="Travel Agency API (Backend)" 
+        description="A fully functioning backend side of the travel agency web application. It was built in JavaScript, and uses a non-relational MongoDB database." 
+        :languages="['JavaScript (ES6)', 'NodeJS', 'ExpressJS', 'MongoDB', 'Mongoose']" 
+        gitLink="https://github.com/AkosoCodes/Travel-Agency-Frontend" 
+        exLink="" 
+        imageURL="src/assets/images/theme.png"
     ></Tile>
 
     <Tile 
-    flip="true"
-    title="Connect Four Game" 
-    description="The Connect 4 game is a classic strategy game in which players alternately place pieces on a grid. It is terminal based and built using C programming language. " 
-    :languages="['C', 'Terminal']" 
-    gitLink="https://github.com/AkosoCodes/Travel-Agency-Frontend" 
-    exLink="" 
-    imageURL="src/assets/images/theme.png"
+        flip="true"
+        title="Connect Four Game" 
+        description="The Connect 4 game is a classic strategy game in which players alternately place pieces on a grid. It is terminal based and built using C programming language. " 
+        :languages="['C', 'Terminal']" 
+        gitLink="https://github.com/AkosoCodes/Travel-Agency-Frontend" 
+        exLink="" 
+        imageURL="src/assets/images/theme.png"
     ></Tile>
 
     <div class="w-2/3 h-auto rounded-lg bg-accent mx-auto mb-50px z-0">
