@@ -66,6 +66,8 @@ module.exports = {
       'nav-md': {'min': '769px', 'max': '1280px'},
       'nav-xl': {'min': '1281px'},
 
+      'too-small-min': {'min': '320px'},
+      'too-small-max': {'max': '320px'},
       'ssm': {'min': '320px', 'max': '500px'},
 
       'sm': '640px',
