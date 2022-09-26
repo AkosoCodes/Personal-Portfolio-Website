@@ -62,24 +62,26 @@ module.exports = {
     },
     screens: {
 
-      'nav-sm': {'min': '0px', 'max': '768px'},
-      'nav-md': {'min': '769px', 'max': '1280px'},
-      'nav-xl': {'min': '1281px'},
+      'nav-sm': {'min': '0px', 'max': '767px'},
+      'nav-md': {'min': '767px', 'max': '1280px'},
+      'nav-xl': {'max': '1281px'},
 
       'too-small-min': {'min': '320px'},
       'too-small-max': {'max': '320px'},
       'ssm': {'min': '320px', 'max': '500px'},
+      'tile-sp': {'min': '0px', 'max': '1024px'},
 
       'sm': '640px',
       // => @media (min-width: 640px) { ... }
 
-      'md': '768px',
+      'md': '767px',
       // => @media (min-width: 768px) { ... }
 
       'lg': '1024px',
       // => @media (min-width: 1024px) { ... }
 
       'xl': '1280px',
+
       // => @media (min-width: 1280px) { ... }
 
       '2xl': '1536px',
