@@ -25,10 +25,10 @@ export default {
   <Navbar></Navbar>
   <sideFooter></sideFooter>
   <hero></hero>
-  <About></About>
+  <!-- <About></About> -->
   <Projects></Projects>
-  <Contact></Contact>
-  <Footer></Footer>
+  <!-- <Contact></Contact>
+  <Footer></Footer> -->
 
 </template>
 

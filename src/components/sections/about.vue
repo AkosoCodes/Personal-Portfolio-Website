@@ -2,8 +2,8 @@
 
     <Heading heading="About Me" headingNum="01"></Heading>
 
-    <div class="flex flex-row justify-left  w-2/3 h-auto mx-auto">
-        <p class="w-3/6 my-10 text-small text-main">
+    <div class="nav-sm:flex-col flex flex-row justify-between  w-2/3 h-auto mx-auto">
+        <p class="w-3/6 text-small text-main">
         
         I'm Andrija, a third-year student striving to become a software engineer. My main passion is connecting the dots: be it ideas from different disciplines, individuals from different teams, or applications from various industries. <br><br>
         
@@ -14,7 +14,7 @@
         Some of the most recent technologies I've been working with are:
         </p>
 
-        <div class="bg-accent w-300px h-300px m-auto ">
+        <div class="bg-accent w-300px h-300px ">
             <img class="w-300px h-300px opacity-40 border-[10px] border-accent hover:border-[5px] hover:opacity-100" src="../../assets/images/me.jpg">
             
         </div>
