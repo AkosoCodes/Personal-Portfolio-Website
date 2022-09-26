@@ -24,9 +24,10 @@
         imageURL="src/assets/images/theme.png"
     ></Tile>
 
-    <div class="tile-sp:hidden w-2/3 h-auto rounded-lg bg-accent mx-auto mb-50px z-0">
+    <div class="tile-sp:hidden w-2/3 h-auto rounded-lg mx-auto mb-[100px] z-0">
 
-        <h1 class="text-main text-center text-[35px]">Other projects:</h1>
+        <h1 class="text-main text-center text-[45px] bg-inherit select-none">Other relevant projects</h1>
+        <p class="text-center text-accent text-[20px] m-[2px] bg-inherit"><a href="https://github.com/AkosoCodes">view GitHub Profile</a></p>
 
     </div>
 

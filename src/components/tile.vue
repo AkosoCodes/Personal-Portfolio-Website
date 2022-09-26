@@ -126,11 +126,11 @@
 
     </div>
 
-    <div v-else class="tile-sp:hidden hover:translate-y-[-5px] w-[70%] mx-auto my-[40px] bg-main-dark drop-shadow-2xl border-solid border-b-[5px] border-accent border-opacity-100 flex flex-row">
+    <div v-else class="tile-sp:hidden hover:translate-y-[-5px] w-[70%] mx-auto my-[75px] bg-main-dark drop-shadow-xl border-solid border-b-[5px] border-accent border-opacity-100 flex flex-row">
         
 
         <!-- Content Container -->
-        <div class="w-3/6 mx-[5px] p-[20px] bg-inherit">
+        <div class="w-3/6 mt-[15px] mx-[5px] p-[20px] bg-inherit">
 
             <!-- Type -->
             <p class="select-none text-[18px] text-accent bg-inherit">Featured Project:</p>
@@ -145,7 +145,7 @@
 
             <!-- Language Tags -->
             <div class="bg-inherit">
-                <ul class="w-[100%] flex flex-row justify-start bg-inherit mb-[10px] flex-wrap">
+                <ul class="w-[100%] flex flex-row justify-start bg-inherit mt-[20px] mb-[30px] flex-wrap">
                     <li class="select-none bg-inherit text-main opacity-50 mx-[20px] first: ml-0 " v-for="lang in languages">{{lang}}</li>
                 </ul>
             </div>

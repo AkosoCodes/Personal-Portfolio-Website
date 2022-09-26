@@ -1,6 +1,6 @@
 <template>
 
-    <div class="nav-md:hidden sticky mt-[100px] py-[20px] bg-main-dark border-solid border-t-[3px] border-accent border-opacity-50">
+    <div class="md:hidden sticky mt-[100px] py-[20px] bg-main-dark border-solid border-t-[3px] border-accent border-opacity-50">
 
         <!-- Social Links -->
         <ul class="w-1/3 mx-auto my-[10px] flex flex-row justify-around bg-inherit">
