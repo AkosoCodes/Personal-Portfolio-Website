@@ -2,6 +2,7 @@
 
     <!-- Small - Medium -->
     
+    <!-- Normal Tile -->
     <div class="ssm:w-[90%] md:w-[70%] lg:hidden w-[80%] mx-auto my-[40px] bg-main-dark drop-shadow-2xl border-solid border-b-[5px] border-accent border-opacity-100 hover:translate-y-[-5px]">
     
         <!-- Image -->
@@ -65,11 +66,13 @@
 
 
     <!-- Large -->
+
+    <!-- Special Tile -->
     <div v-if=special class="tile-sp:hidden flex flex-row relative w-2/3 h-[400px] mx-auto my-20">
 
 
         <!-- Image -->
-        <div class="w-4/6 rounded-lg bg-accent z-0 object-cover flex justify-center align-center overflow-hidden bg-cover">
+        <div class="w-4/6 rounded-lg bg-accent z-0 object-cover flex my-auto overflow-hidden bg-cover drop-shadow-lg">
             <a :href=gitLink target="_blank">
                 <img class="opacity-50 hover:opacity-100 shrink-0" :src=imageURL alt="">
             </a>
@@ -93,7 +96,7 @@
             </div>
 
             <!-- Description -->
-            <p class=" bg-main-dark py-2 pr-2 ml-[-65px] my-[15px]  w-[120%] text-main text-small text-right rounded-r-lg rounded-l-md z-10">
+            <p class=" bg-main-dark py-2 pr-2 ml-[-65px] my-[15px]  w-[120%] text-main text-small text-right rounded-r-lg rounded-l-md z-10 drop-shadow-lg">
                 {{description}}
             </p>
 
@@ -126,6 +129,7 @@
 
     </div>
 
+    <!-- Normal Tile -->
     <div v-else class="tile-sp:hidden hover:translate-y-[-5px] w-[70%] mx-auto my-[75px] bg-main-dark drop-shadow-xl border-solid border-b-[5px] border-accent border-opacity-100 flex flex-row">
         
 
@@ -184,10 +188,6 @@
 
     </div>
 
-
-
-
-
 </template>
 
 <script>
@@ -226,6 +226,7 @@
                 required: true
             }
         }
-        
+       
     }
+    
 </script>

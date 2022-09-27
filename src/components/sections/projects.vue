@@ -1,9 +1,11 @@
 <template>
 
+    <!-- Header -->
     <Heading heading="Projects" headingNum="02"></Heading>
 
 
-    <!-- Place Special Tiles Here -->
+    <!-- Place Special Tiles Here </ -->
+
     <Tile 
         special="true"
         title="Travel Agency Web App" 
@@ -24,14 +26,11 @@
         imageURL="src/assets/images/theme.png"
     ></Tile>
 
-    <div class="tile-sp:hidden w-2/3 h-auto rounded-lg mx-auto mb-[100px] z-0">
+    <!-- /> Place Special Tiles Here -->
 
-        <h1 class="text-main text-center text-[45px] bg-inherit select-none">Other relevant projects</h1>
-        <p class="text-center text-accent text-[20px] m-[2px] bg-inherit"><a href="https://github.com/AkosoCodes">view GitHub Profile</a></p>
 
-    </div>
 
-    <!-- Place Normal Tiles Here -->
+    <!-- Place Normal Tiles Here </ -->
 
     <Tile 
         title="The North Star Theme" 
@@ -51,12 +50,15 @@
         imageURL="src/assets/images/theme.png"
     ></Tile>
 
+    <!-- /> Place Normal Tiles Here -->
+
+
+    <!-- Other Projects -->
     <div class="w-2/3 h-auto rounded-lg bg-accent mx-auto mb-50px z-0">
 
-        <h1 class="text-main text-center text-[35px]">For other projects, feel free to check <a class="hover:text-main text-accent" href="https://www.github.com/AkosoCodes" target="_blank">my GitHub Profile.</a></h1>
+        <h1 class="text-main text-center text-[25px]">The rest of my projects can be found on <a class="hover:text-main text-accent" href="https://www.github.com/AkosoCodes" target="_blank">my GitHub Profile.</a></h1>
 
     </div>
-
 
 </template>
 
@@ -74,9 +76,6 @@
         },
 
     }
-
-
-
 
 </script>
 
