@@ -1,7 +1,7 @@
 <template>
 
     <!-- Side Footer Container -->
-    <div class="nav-sm:hidden fixed mx-45px bottom-0 left-0">
+    <div class="nav-sm:hidden fixed mx-45px bottom-0 left-0 z-10">
 
         <!-- Social Links -->
         <ul class="my-20px bg-none">
