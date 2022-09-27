@@ -69,6 +69,8 @@ module.exports = {
       'too-small-min': {'min': '320px'},
       'too-small-max': {'max': '320px'},
       'ssm': {'min': '320px', 'max': '500px'},
+
+      'heading-md': {'min': '320px', 'max': '767px'},
       'tile-sp': {'min': '0px', 'max': '1024px'},
 
       'sm': '640px',
