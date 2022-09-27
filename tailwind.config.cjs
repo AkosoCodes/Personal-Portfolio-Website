@@ -72,6 +72,7 @@ module.exports = {
 
       'heading-md': {'min': '320px', 'max': '767px'},
       'tile-sp': {'min': '0px', 'max': '1024px'},
+      'tile-bm': {'min': '500px', 'max': '1024px'},
 
       'sm': '640px',
       // => @media (min-width: 640px) { ... }

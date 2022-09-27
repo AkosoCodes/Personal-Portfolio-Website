@@ -26,10 +26,10 @@ export default {
   <div class="too-small-max:hidden">
     <Navbar></Navbar>
     <sideFooter></sideFooter>
-    <hero></hero>
+    <hero id="hero"></hero>
     <!-- <About></About> -->
-    <Projects></Projects>
-    <Contact></Contact>
+    <Projects id="projects"></Projects>
+    <Contact id="contact"></Contact>
     <Footer></Footer>
   </div>
 

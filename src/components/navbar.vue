@@ -58,10 +58,10 @@
 
       <!-- About -->
       <li class="my-auto mx-1 p-5 text-main hover:text-accent bg-inherit">
-        <a href="" class="bg-inherit">
+        <button class="bg-inherit" v-on:click=scrollTo(1)>
           <span class="text-accent bg-inherit">01.</span>
           About
-        </a>
+        </button>
       </li>
       
       <!-- Projects -->
@@ -129,6 +129,9 @@
       toggleHidden() {
         this.showHiddenDiv = !this.showHiddenDiv
         this.showClose = !this.showClose
+      },
+      scrollTo(id) {
+        document.getElementById(id).scrollIntoView({behavior: "smooth"});
       }
     }
   }
@@ -150,6 +153,14 @@
       document.getElementById("navbar").style.top = "-80px";
     }
     prevScrollpos = currentScrollPos;
-  }
+  };
+
+  function scrollTo(id){
+
+    if(id == 1){
+      document.getElementById('about').scrollIntoView({behavior: "smooth"});
+    }
+
+  };
 
 </script>
