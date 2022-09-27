@@ -1,7 +1,7 @@
 <template>
 
     <!-- Footer Container -->
-    <div class="md:hidden sticky mt-[100px] py-[20px] bg-main-dark border-solid border-t-[3px] border-accent border-opacity-50">
+    <div class="md:hidden sticky w-full mt-[50px] py-[20px] bg-main-dark border-solid border-t-[3px] border-accent border-opacity-50 z-20">
 
         <!-- Social Links -->
         <ul class="w-1/3 mx-auto my-[10px] flex flex-row justify-around bg-inherit">
@@ -37,8 +37,9 @@
         </ul>
 
         <!-- Signature -->
-        <p class="w-full mx-auto my-[10px] text-center text-main hover:text-accent select-none bg-inherit">
-            Built by Andrija Stanković.
+        <p class="w-full mx-auto my-[10px] text-center text-main  select-none bg-inherit">
+            Built by <span class="bg-inherit hover:text-accent">Andrija Stankovic</span>
+            <br>Hosted by <span class="bg-inherit text-accent">Netlify.</span>
         </p>
 
     </div>

@@ -27,9 +27,9 @@ export default {
     <Navbar></Navbar>
     <sideFooter></sideFooter>
     <hero></hero>
-    <!-- <About></About> -->
+    <About></About>
     <Projects></Projects>
-    <!-- <Contact></Contact> -->
+    <Contact></Contact>
     <Footer></Footer>
   </div>
 
