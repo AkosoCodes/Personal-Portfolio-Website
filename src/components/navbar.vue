@@ -82,7 +82,7 @@
 
       <!-- Resume -->
       <li class="my-auto mx-1 mr-[20px] p-5 text-main hover:text-accent bg-inherit">
-        <form method="get" action="src/assets/files/resume.pdf">
+        <form method="get" action="public/resume.pdf">
           <button class="text-accent bg-accent bg-opacity-25 rounded-md px-5 py-1 border-accent border-[2px] hover:scale-105 hover:bg-opacity-0" type="submit">
             Resume
           </button>
