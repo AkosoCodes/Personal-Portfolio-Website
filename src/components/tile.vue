@@ -74,7 +74,7 @@
         <!-- Image -->
         <div class="w-4/6 rounded-lg bg-accent z-0 object-cover flex my-auto overflow-hidden bg-cover drop-shadow-lg">
             <a :href=gitLink target="_blank">
-                <img class="opacity-50 hover:opacity-100 shrink-0 " :src=imageURL alt="">
+                <img class="opacity-50 hover:opacity-100 shrink-0" :src=imageURL alt="">
             </a>
         </div>
 
