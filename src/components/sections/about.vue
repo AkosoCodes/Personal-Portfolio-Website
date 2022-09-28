@@ -32,5 +32,6 @@
         name: "about",
         components: { Heading }
     }
+    
 
 </script>
