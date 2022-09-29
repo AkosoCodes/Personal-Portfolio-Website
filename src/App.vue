@@ -7,6 +7,8 @@ import Projects from './components/sections/projects.vue';
 import Contact from './components/sections/contact.vue';
 import Footer from './components/footer.vue';
 
+
+
 export default {
   name: 'App',
   components: {
@@ -18,6 +20,8 @@ export default {
     Contact,
     Footer
 }
+
+
 }
 </script>
 
@@ -26,8 +30,8 @@ export default {
   <div class="too-small-max:hidden">
     <Navbar></Navbar>
     <sideFooter></sideFooter>
-    <hero class="mt-[15vw]"></hero>
-    <About class="mt-[15vw]"></About>
+    <hero class="my-[15vh]"></hero>
+    <About></About>
     <Projects></Projects>
     <Contact></Contact>
     <Footer></Footer>

@@ -25,7 +25,7 @@
         :languages="['Angular', 'TypeScript', 'NodeJS', 'CSS']" 
         gitLink="https://github.com/AkosoCodes/Travel-Agency-Frontend" 
         exLink="" 
-        imageURL="/images/theme.png"
+        imageURL="/images/frontend.png"
     ></Tile>
 
     <Tile 
@@ -35,7 +35,7 @@
         :languages="['JavaScript (ES6)', 'NodeJS', 'ExpressJS', 'MongoDB', 'Mongoose']" 
         gitLink="https://github.com/AkosoCodes/Travel-Agency-Frontend" 
         exLink="" 
-        imageURL="images/theme.png"
+        imageURL="images/backend.png"
     ></Tile>
 
     <Tile
