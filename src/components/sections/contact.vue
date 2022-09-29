@@ -2,7 +2,7 @@
 
     <Heading tempID="contact" heading="Contact" headingNum="03"></Heading>
 
-    <div class="nav-sm:w-[80%] ssm:w-[85%] w-2/3 flex justify-center flex-col mt-[50px] mx-auto select-none mb-[50px]">
+    <div class="nav-sm:w-[80%] ssm:w-[85%] w-2/3 flex justify-center flex-col  mx-auto select-none mb-[50px]">
 
         <h1 class="text-accent text-[40px] font-bold text-center">Get in touch.</h1>
         <p class="text-main text-center text-base ssm:text-base-sm">

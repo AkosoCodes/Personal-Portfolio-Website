@@ -26,8 +26,8 @@ export default {
   <div class="too-small-max:hidden">
     <Navbar></Navbar>
     <sideFooter></sideFooter>
-    <hero></hero>
-    <About></About>
+    <hero class="mt-[15vw]"></hero>
+    <About class="mt-[15vw]"></About>
     <Projects></Projects>
     <Contact></Contact>
     <Footer></Footer>

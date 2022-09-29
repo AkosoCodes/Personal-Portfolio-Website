@@ -1,7 +1,7 @@
 <template>
 
 	<!-- Hero Section Container -->
-	<div class="nav-sm:w-[80%] ssm:w-[85%] mx-auto my-[5vw] w-2/3 flex flex-col text-main">
+	<div class="nav-sm:w-[80%] ssm:w-[85%] mx-auto w-2/3 flex flex-col text-main">
 
 		<!-- TypeWriter -->
 		<TypeWriter></TypeWriter>
