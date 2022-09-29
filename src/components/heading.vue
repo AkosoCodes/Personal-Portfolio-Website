@@ -7,7 +7,7 @@
     </div>
 
     <div :id=tempID class="heading-md:w-[85%] md:w-[70%] ssm:block hidden flex flex-row justify-left w-2/3 h-auto mx-auto my-[20px] select-none">
-        <h1 class="text-[35px]  text-main hover:text-accent"><span class="text-accent">{{headingNum}}. {{tempID}}</span>{{heading}}</h1>
+        <h1 class="text-[35px]  text-main hover:text-accent"><span class="text-accent">{{headingNum}}. </span>{{heading}}</h1>
     </div>
 
 
