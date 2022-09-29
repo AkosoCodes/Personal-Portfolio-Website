@@ -1,7 +1,12 @@
-# Vue 3 + Vite
+<h1 align="center">Personal Portfolio Website</h1>
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## 😶‍🌫️ | Description
+<p>This is the V1 of my portfolio website built with Vue + Vite, and hosted by Netlify.</p>
 
-## Recommended IDE Setup
+## 🎨 | Color Pallete 
+The color pallete was chosen using **Coolors**, and the link to the pallete can be found <a href="">here.</a><br>
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+
+## ⚖ | License <a name="license"></a>
+This repository is under the [MIT](https://opensource.org/licenses/MIT) license.
+
