@@ -45,7 +45,7 @@
         :languages="['C', 'Terminal']" 
         gitLink="https://github.com/AkosoCodes/Travel-Agency-Frontend" 
         exLink="" 
-        imageURL="images/theme.png"
+        imageURL="images/connectfour.png"
     ></Tile>
 
     <!-- /> Place Normal Tiles Here -->
