@@ -21,9 +21,9 @@
 		</p>
 
 		<!-- Learn More Button -->
-		<button class="w-150px h-50px bg-accent text-main my-5 bg-opacity-70 hover:bg-main hover:bg-opacity-30 hover:text-accent">
+		<a href="#about"><button class="w-150px h-50px bg-accent text-main my-5 bg-opacity-70 hover:bg-main hover:bg-opacity-30 hover:text-accent">
 			Learn More
-		</button>
+		</button></a>
 
 	</div>
 
