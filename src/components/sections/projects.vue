@@ -13,7 +13,7 @@
         :languages="['VS Code', 'JSON', 'Coolors']" 
         gitLink="https://github.com/AkosoCodes/north-star-theme" 
         exLink="https://marketplace.visualstudio.com/items?itemName=AkosoCodes.north-star-theme" 
-        imageURL="src/assets/images/theme1.png"
+        imageURL="/images/theme1.png"
     ></Tile>
 
 
@@ -25,7 +25,7 @@
         :languages="['Angular', 'TypeScript', 'NodeJS', 'CSS']" 
         gitLink="https://github.com/AkosoCodes/Travel-Agency-Frontend" 
         exLink="" 
-        imageURL="src/assets/images/theme.png"
+        imageURL="/images/theme.png"
     ></Tile>
 
     <Tile 
@@ -35,7 +35,7 @@
         :languages="['JavaScript (ES6)', 'NodeJS', 'ExpressJS', 'MongoDB', 'Mongoose']" 
         gitLink="https://github.com/AkosoCodes/Travel-Agency-Frontend" 
         exLink="" 
-        imageURL="src/assets/images/theme.png"
+        imageURL="images/theme.png"
     ></Tile>
 
     <Tile
@@ -45,7 +45,7 @@
         :languages="['C', 'Terminal']" 
         gitLink="https://github.com/AkosoCodes/Travel-Agency-Frontend" 
         exLink="" 
-        imageURL="src/assets/images/theme.png"
+        imageURL="images/theme.png"
     ></Tile>
 
     <!-- /> Place Normal Tiles Here -->
