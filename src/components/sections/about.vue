@@ -1,6 +1,6 @@
 <template>
 
-    <Heading id="about" heading="About" headingNum="01"></Heading>
+    <Heading tempID="about" heading="About" headingNum="01"></Heading>
 
     <div class="nav-sm:w-[80%] ssm:w-[85%] w-2/3 flex justify-center flex-col mt-[50px] mx-auto select-none mb-[50px]">
 

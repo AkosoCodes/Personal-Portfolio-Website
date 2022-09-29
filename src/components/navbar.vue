@@ -17,7 +17,7 @@
 
     <!-- About -->
     <li class="w-[145px] mx-auto py-2  text-main  bg-inherit">
-      <a href="" class="flex flex-col justify-center bg-inherit">
+      <a href="#about" class="flex flex-col justify-center bg-inherit">
         <span class="text-accent bg-inherit mx-auto">01. </span>
         <span class="text-main bg-inherit mx-auto hover:text-accent">About Me</span>
       </a>
@@ -25,7 +25,7 @@
 
     <!-- Projects -->
     <li class="w-[145px] mx-auto py-5 text-main hover:text-accent bg-inherit">
-      <a href="" class="flex flex-col  mx-auto bg-inherit">
+      <a href="#projects" class="flex flex-col  mx-auto bg-inherit">
         <span class="text-accent mx-auto bg-inherit">02. </span>
         <span class="text-main bg-inherit mx-auto hover:text-accent">Projects</span>
       </a>
@@ -33,7 +33,7 @@
 
     <!-- Contact -->
     <li class="w-[145px] mx-auto py-2 text-main hover:text-accent bg-inherit">
-      <a href="" class="flex flex-col  mx-auto bg-inherit">
+      <a href="#contact" class="flex flex-col  mx-auto bg-inherit">
         <span class="text-accent mx-auto bg-inherit">03. </span>
         <span class="text-main bg-inherit mx-auto hover:text-accent">Contact</span>
       </a>
@@ -58,15 +58,15 @@
 
       <!-- About -->
       <li class="my-auto mx-1 p-5 text-main hover:text-accent bg-inherit">
-        <button class="bg-inherit" v-on:click=scrollTo(1)>
-          <span class="text-accent bg-inherit">01.</span>
-          About
-        </button>
+        <a href="#about" class="bg-inherit">
+            <span class="text-accent bg-inherit">01.</span>
+            About
+        </a>
       </li>
       
       <!-- Projects -->
       <li class="my-auto mx-1 p-5 text-main hover:text-accent bg-inherit">
-        <a href="" class="bg-inherit">
+        <a href="#projects" class="bg-inherit">
           <span class="text-accent bg-inherit">02.</span>
           Projects
         </a>
@@ -74,7 +74,7 @@
 
       <!-- Contact -->
       <li class="my-auto mx-1 p-5 text-main hover:text-accent bg-inherit">
-        <a href="" class="bg-inherit">
+        <a href="#contact" class="bg-inherit">
           <span class="text-accent bg-inherit">03.</span>
           Contact
         </a>
@@ -129,9 +129,6 @@
       toggleHidden() {
         this.showHiddenDiv = !this.showHiddenDiv
         this.showClose = !this.showClose
-      },
-      scrollTo(id) {
-        document.getElementById(id).scrollIntoView({behavior: "smooth"});
       }
     }
   }
@@ -153,14 +150,6 @@
       document.getElementById("navbar").style.top = "-80px";
     }
     prevScrollpos = currentScrollPos;
-  };
-
-  function scrollTo(id){
-
-    if(id == 1){
-      document.getElementById('about').scrollIntoView({behavior: "smooth"});
-    }
-
   };
 
 </script>

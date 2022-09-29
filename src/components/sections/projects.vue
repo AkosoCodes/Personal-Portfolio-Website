@@ -1,7 +1,7 @@
 <template>
 
     <!-- Header -->
-    <Heading heading="Projects" headingNum="02"></Heading>
+    <Heading tempID="projects" heading="Projects" headingNum="02"></Heading>
 
 
     <!-- Place Special Tiles Here </ -->

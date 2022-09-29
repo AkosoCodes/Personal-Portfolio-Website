@@ -1,6 +1,6 @@
 <template>
 
-    <Heading heading="Contact" headingNum="03"></Heading>
+    <Heading tempID="contact" heading="Contact" headingNum="03"></Heading>
 
     <div class="nav-sm:w-[80%] ssm:w-[85%] w-2/3 flex justify-center flex-col mt-[50px] mx-auto select-none mb-[50px]">
 
