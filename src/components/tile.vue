@@ -24,7 +24,7 @@
             <p class="select-none text-[18px] text-accent bg-inherit">Featured Project:</p>
 
             <!-- Title -->
-            <h2 class="w-[240px] select-none hover:text-accent text-[25px] mb-[20px] text-main font-semibold bg-inherit ">{{title}}</h2>
+            <h2 class="w-[240px] select-none hover:text-accent text-[25px] mb-[20px] text-main font-semibold bg-inherit">{{title}}</h2>
         
             <!-- Description -->
             <p class="select-none  text-main text-small bg-inherit mb-[5px]">
@@ -151,7 +151,7 @@
             <p class="select-none text-[18px] text-accent bg-inherit">Featured Project:</p>
 
             <!-- Title -->
-            <h2 class="select-none hover:text-accent text-[25px] mb-[20px] text-main font-semibold bg-inherit ">{{title}}</h2>
+            <h2 class="select-none hover:text-accent text-[25px] mb-[20px] text-main font-semibold bg-inherit">{{title}}</h2>
         
             <!-- Description -->
             <p class="select-none  text-main text-small bg-inherit mb-[5px]">

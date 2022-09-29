@@ -10,9 +10,9 @@
         </p>
 
 		<!-- Learn More Button -->
-		<button class="mx-auto w-150px h-50px bg-accent text-main my-5 bg-opacity-70 hover:bg-main hover:bg-opacity-30 hover:text-accent">
-			Learn More
-		</button>
+		<a href="mailto:andrijas0721@gmail.com" class="mx-auto"><button class="mx-auto w-150px h-50px bg-accent text-main my-5 bg-opacity-70 hover:bg-main hover:bg-opacity-30 hover:text-accent">
+			Send Message
+		</button></a>
     
     </div>
 
