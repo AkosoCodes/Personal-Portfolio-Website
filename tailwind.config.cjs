@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */ 
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     "./index.html",
@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
 
-      colors:{
+      colors: {
         'main': '#EDE5DC',
         'main-dark': '#18242A',
         'accent': '#C6AC8F',
@@ -22,7 +22,7 @@ module.exports = {
       },
 
       fontSize: {
-        
+
         'tiny': '.875rem',
         'small': '1.2rem',
         'base-sm': '16px',
@@ -41,7 +41,7 @@ module.exports = {
         '72.5px': '72.5px',
       },
 
-      width:{
+      width: {
         '5px': '5px',
         '50px': '50px',
         '150px': '150px',
@@ -49,7 +49,7 @@ module.exports = {
         '300px': '300px',
       },
 
-      height:{
+      height: {
         '5px': '5px',
         '50px': '50px',
         '75px': '75px',
@@ -62,17 +62,41 @@ module.exports = {
     },
     screens: {
 
-      'nav-sm': {'min': '0px', 'max': '767px'},
-      'nav-md': {'min': '767px', 'max': '1280px'},
-      'nav-xl': {'max': '1281px'},
+      'nav-sm': {
+        'min': '0px',
+        'max': '767px'
+      },
+      'nav-md': {
+        'min': '767px',
+        'max': '1280px'
+      },
+      'nav-xl': {
+        'max': '1281px'
+      },
 
-      'too-small-min': {'min': '320px'},
-      'too-small-max': {'max': '320px'},
-      'ssm': {'min': '320px', 'max': '500px'},
+      'too-small-min': {
+        'min': '320px'
+      },
+      'too-small-max': {
+        'max': '320px'
+      },
+      'ssm': {
+        'min': '320px',
+        'max': '500px'
+      },
 
-      'heading-md': {'min': '320px', 'max': '767px'},
-      'tile-sp': {'min': '0px', 'max': '1024px'},
-      'tile-bm': {'min': '500px', 'max': '1024px'},
+      'heading-md': {
+        'min': '320px',
+        'max': '767px'
+      },
+      'tile-sp': {
+        'min': '0px',
+        'max': '1024px'
+      },
+      'tile-bm': {
+        'min': '500px',
+        'max': '1024px'
+      },
 
       'sm': '640px',
       // => @media (min-width: 640px) { ... }
