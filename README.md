@@ -37,4 +37,3 @@ The color pallete was chosen using **Coolors**, and the link to the pallete can 
 This repository is under the [MIT](https://opensource.org/licenses/MIT) license.
 
 If you wish to fork this project, or use it as a template for your own portfolio website, feel free to do so but please provide proper attribution.
-
