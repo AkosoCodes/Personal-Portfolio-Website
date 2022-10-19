@@ -1,6 +1,6 @@
 <h1 align="center">Personal Portfolio Website</h1>
 
-<p align="center">This is the first version of <a href="andrija-stankovic.netlify.app">andrija-stankovic.netlify.app</a> built using Vue and Tailwind, and hosted by Netlify.</p>
+<p align="center">This is the first version of <a href="https://andrija-stankovic.netlify.app/">andrija-stankovic.netlify.app</a> built using Vue and Tailwind, and hosted by Netlify.</p>
 
 <p align="center">
   <a href="https://app.netlify.com/sites/andrija-stankovic/deploys" target="_blank">
